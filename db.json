@@ -7,12 +7,6 @@
       "name": "Siti Admin"
     },
     {
-      "id": "u2",
-      "username": "dokter",
-      "role": "doctor",
-      "name": "Dr. Budi Santoso"
-    },
-    {
       "id": "u3",
       "username": "apotek",
       "role": "pharmacist",
@@ -23,6 +17,119 @@
       "username": "kasir",
       "role": "cashier",
       "name": "Joko Kasir"
+    },
+    {
+      "id": "doc1",
+      "username": "hartono",
+      "role": "doctor",
+      "name": "dr. Hartono, Sp.PD",
+      "specialty": "Spesialis Penyakit Dalam",
+      "image": "https://i.pravatar.cc/150?img=11"
+    },
+    {
+      "id": "doc2",
+      "username": "anisa",
+      "role": "doctor",
+      "name": "dr. Anisa, Sp.A",
+      "specialty": "Spesialis Anak",
+      "image": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "id": "doc3",
+      "username": "budi",
+      "role": "doctor",
+      "name": "dr. Budi, Sp.THT",
+      "specialty": "Spesialis THT",
+      "image": "https://i.pravatar.cc/150?img=3"
+    },
+    {
+      "id": "doc4",
+      "username": "citra",
+      "role": "doctor",
+      "name": "dr. Citra, Sp.OG",
+      "specialty": "Spesialis Kandungan",
+      "image": "https://i.pravatar.cc/150?img=9"
+    },
+    {
+      "id": "doc5",
+      "username": "doni",
+      "role": "doctor",
+      "name": "dr. Doni, Sp.KJ",
+      "specialty": "Spesialis Kejiwaan",
+      "image": "https://i.pravatar.cc/150?img=13"
+    }
+  ],
+  "patients": [
+    {
+      "id": "p1",
+      "name": "Budi Santoso",
+      "nik": "320112345678",
+      "birthDate": "1980-05-12",
+      "address": "Jl. Merdeka No. 1",
+      "phone": "08123456789",
+      "createdAt": "2024-01-01",
+      "type": "BPJS",
+      "insuranceNumber": "00012345678"
+    },
+    {
+      "id": "p2",
+      "name": "Susi Susanti",
+      "nik": "320198765432",
+      "birthDate": "1995-08-17",
+      "address": "Jl. Kebon Jeruk No. 4",
+      "phone": "08198765432",
+      "createdAt": "2024-02-15",
+      "type": "Umum",
+      "insuranceNumber": ""
+    }
+  ],
+  "visits": [
+    {
+      "id": "v-1763730841347",
+      "patientId": "p1",
+      "doctorId": "u2",
+      "date": "2025-11-21",
+      "queueNumber": "A-001",
+      "isEmergency": false,
+      "status": "waiting"
+    }
+  ],
+  "doctorSchedules": [
+    {
+      "id": "ds1",
+      "doctorId": "doc1",
+      "name": "dr. Hartono, Sp.PD",
+      "specialty": "Spesialis Penyakit Dalam",
+      "day": "Senin",
+      "time": "08:00 - 14:00",
+      "status": "Praktek",
+      "quota": 20,
+      "filled": 15,
+      "image": "https://i.pravatar.cc/150?img=11"
+    },
+    {
+      "id": "ds2",
+      "doctorId": "doc2",
+      "name": "dr. Anisa, Sp.A",
+      "specialty": "Spesialis Anak",
+      "day": "Senin",
+      "time": "09:00 - 15:00",
+      "status": "Praktek",
+      "quota": 25,
+      "filled": 18,
+      "image": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "id": "ds-1763730862837",
+      "doctorId": "doc3",
+      "name": "dr. Budi, Sp.THT",
+      "specialty": "Spesialis THT",
+      "day": "Jumat",
+      "time": "08:00 - 14:00",
+      "status": "Praktek",
+      "quota": 20,
+      "filled": 0,
+      "image": "https://i.pravatar.cc/150?img=3"
     }
   ],
   "medicines": [
@@ -39,101 +146,62 @@
       "stock": 50
     }
   ],
-  "patients": [
-    {
-      "id": "p1",
-      "name": "Budi Santoso",
-      "nik": "320112345678",
-      "birthDate": "1980-05-12",
-      "address": "Jl. Merdeka",
-      "phone": "08123456789",
-      "createdAt": "2024-01-01"
-    },
-    {
-      "id": "p2",
-      "name": "Susi Susanti",
-      "nik": "320198765432",
-      "birthDate": "1995-08-17",
-      "address": "Jl. Kebon Jeruk",
-      "phone": "08198765432",
-      "createdAt": "2024-02-15"
-    },
-    {
-      "id": "p-1763725598457",
-      "name": "ariel",
-      "nik": "123456789012345678",
-      "address": "unklab",
-      "birthDate": "2006-04-21",
-      "phone": "0812345678",
-      "createdAt": "2025-11-21"
-    },
-    {
-      "id": "p-1763725656539",
-      "name": "karen",
-      "nik": "0987654321123456",
-      "address": "airmadidi",
-      "birthDate": "2005-05-18",
-      "phone": "08345678",
-      "createdAt": "2025-11-21"
-    },
-    {
-      "id": "p-1763725703748",
-      "name": "ariel",
-      "nik": "12345678901234567",
-      "address": "Perum SBY",
-      "birthDate": "2006-04-21",
-      "phone": "081243631173",
-      "createdAt": "2025-11-21"
-    },
-    {
-      "id": "p-1763726147063",
-      "name": "John Doe",
-      "nik": "DARURAT-1763726147063",
-      "address": "Data Menyusul (IGD)",
-      "birthDate": "1900-01-01",
-      "phone": "-",
-      "createdAt": "2025-11-21"
-    }
-  ],
-  "visits": [
-    {
-      "id": "v2",
-      "patientId": "p2",
-      "doctorId": "u2",
-      "date": "2024-05-20",
-      "queueNumber": "E-001",
-      "isEmergency": true,
-      "status": "done"
-    },
-    {
-      "id": "v-1763725658615",
-      "patientId": "p-1763725656539",
-      "doctorId": "u2",
-      "date": "2025-11-21",
-      "queueNumber": "A-003",
-      "isEmergency": false,
-      "status": "skipped"
-    },
-    {
-      "id": "v-1763725704032",
-      "patientId": "p-1763725703748",
-      "doctorId": "u2",
-      "date": "2025-11-21",
-      "queueNumber": "A-004",
-      "isEmergency": false,
-      "status": "waiting"
-    },
-    {
-      "id": "v-1763726147373",
-      "patientId": "p-1763726147063",
-      "doctorId": "u2",
-      "date": "2025-11-21",
-      "queueNumber": "E-001",
-      "isEmergency": true,
-      "status": "done"
-    }
-  ],
   "medicalRecords": [],
   "prescriptions": [],
-  "transactions": []
+  "clinicInfo": {
+    "name": "Klinik Sentosa",
+    "address": "Jl. Kesehatan No. 123, Jakarta Selatan",
+    "phone": "021-555-0199",
+    "email": "admin@kliniksentosa.com"
+  },
+  "transactions": [
+    {
+      "id": "INV-20240521-001",
+      "patientName": "Ahmad Subarjo",
+      "description": "Poli Umum / dr. Budi",
+      "amount": 150000,
+      "status": "pending",
+      "date": "2024-05-21",
+      "items": [
+        {
+          "id": "s1",
+          "name": "Jasa Konsultasi Dokter",
+          "quantity": 1,
+          "price": 100000,
+          "type": "service"
+        },
+        {
+          "id": "m1",
+          "name": "Paracetamol 500mg",
+          "quantity": 10,
+          "price": 5000,
+          "type": "medicine"
+        }
+      ]
+    },
+    {
+      "id": "INV-20240521-002",
+      "patientName": "Siti Aminah",
+      "description": "Poli Gigi / drg. Anisa",
+      "amount": 350000,
+      "status": "paid",
+      "date": "2024-05-21",
+      "items": [
+        {
+          "id": "s2",
+          "name": "Tindakan Cabut Gigi",
+          "quantity": 1,
+          "price": 300000,
+          "type": "service"
+        },
+        {
+          "id": "m2",
+          "name": "Amoxicillin 500mg",
+          "quantity": 5,
+          "price": 10000,
+          "type": "medicine"
+        }
+      ]
+    }
+  ]
 }
