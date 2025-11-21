@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-50 text-slate-900 font-sans antialiased;
+}
+
+#root {
+  @apply min-h-screen bg-[radial-gradient(circle_at_top,_#e0f2fe,_transparent),_linear-gradient(to_bottom,_#f8fafc,_#f1f5f9)];
+}

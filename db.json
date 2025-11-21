@@ -1,0 +1,139 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "username": "admin",
+      "role": "admin",
+      "name": "Siti Admin"
+    },
+    {
+      "id": "u2",
+      "username": "dokter",
+      "role": "doctor",
+      "name": "Dr. Budi Santoso"
+    },
+    {
+      "id": "u3",
+      "username": "apotek",
+      "role": "pharmacist",
+      "name": "Rina Farmasi"
+    },
+    {
+      "id": "u4",
+      "username": "kasir",
+      "role": "cashier",
+      "name": "Joko Kasir"
+    }
+  ],
+  "medicines": [
+    {
+      "id": "m1",
+      "name": "Paracetamol 500mg",
+      "price": 5000,
+      "stock": 100
+    },
+    {
+      "id": "m2",
+      "name": "Amoxicillin 500mg",
+      "price": 12000,
+      "stock": 50
+    }
+  ],
+  "patients": [
+    {
+      "id": "p1",
+      "name": "Budi Santoso",
+      "nik": "320112345678",
+      "birthDate": "1980-05-12",
+      "address": "Jl. Merdeka",
+      "phone": "08123456789",
+      "createdAt": "2024-01-01"
+    },
+    {
+      "id": "p2",
+      "name": "Susi Susanti",
+      "nik": "320198765432",
+      "birthDate": "1995-08-17",
+      "address": "Jl. Kebon Jeruk",
+      "phone": "08198765432",
+      "createdAt": "2024-02-15"
+    },
+    {
+      "id": "p-1763725598457",
+      "name": "ariel",
+      "nik": "123456789012345678",
+      "address": "unklab",
+      "birthDate": "2006-04-21",
+      "phone": "0812345678",
+      "createdAt": "2025-11-21"
+    },
+    {
+      "id": "p-1763725656539",
+      "name": "karen",
+      "nik": "0987654321123456",
+      "address": "airmadidi",
+      "birthDate": "2005-05-18",
+      "phone": "08345678",
+      "createdAt": "2025-11-21"
+    },
+    {
+      "id": "p-1763725703748",
+      "name": "ariel",
+      "nik": "12345678901234567",
+      "address": "Perum SBY",
+      "birthDate": "2006-04-21",
+      "phone": "081243631173",
+      "createdAt": "2025-11-21"
+    },
+    {
+      "id": "p-1763726147063",
+      "name": "John Doe",
+      "nik": "DARURAT-1763726147063",
+      "address": "Data Menyusul (IGD)",
+      "birthDate": "1900-01-01",
+      "phone": "-",
+      "createdAt": "2025-11-21"
+    }
+  ],
+  "visits": [
+    {
+      "id": "v2",
+      "patientId": "p2",
+      "doctorId": "u2",
+      "date": "2024-05-20",
+      "queueNumber": "E-001",
+      "isEmergency": true,
+      "status": "done"
+    },
+    {
+      "id": "v-1763725658615",
+      "patientId": "p-1763725656539",
+      "doctorId": "u2",
+      "date": "2025-11-21",
+      "queueNumber": "A-003",
+      "isEmergency": false,
+      "status": "skipped"
+    },
+    {
+      "id": "v-1763725704032",
+      "patientId": "p-1763725703748",
+      "doctorId": "u2",
+      "date": "2025-11-21",
+      "queueNumber": "A-004",
+      "isEmergency": false,
+      "status": "waiting"
+    },
+    {
+      "id": "v-1763726147373",
+      "patientId": "p-1763726147063",
+      "doctorId": "u2",
+      "date": "2025-11-21",
+      "queueNumber": "E-001",
+      "isEmergency": true,
+      "status": "done"
+    }
+  ],
+  "medicalRecords": [],
+  "prescriptions": [],
+  "transactions": []
+}
