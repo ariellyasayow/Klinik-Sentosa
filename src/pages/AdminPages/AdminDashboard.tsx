@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { api } from '../services/api';
-import type { Visit, Patient, VisitStatus, DoctorSchedule } from '../types';
+import type { Visit, Patient, VisitStatus, DoctorSchedule } from '../../types';
 import logo from '../assets/logo.png'; 
 import PatientDatabase from './PatientDatabase';
 import DoctorSchedulePage from './DoctorSchedule';

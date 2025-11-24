@@ -1,4 +1,4 @@
-import type { Patient, Visit, MedicalRecord, Prescription, User, Medicine, DoctorSchedule, Transaction, ClinicInfo } from '../types';
+import type { Patient, Visit, MedicalRecord, Prescription, User, Medicine, DoctorSchedule, Transaction, ClinicInfo } from '../../types';
 
 const BASE_URL = 'http://localhost:3000';
 

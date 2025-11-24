@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Login from './pages/Login';
-import AdminDashboard from './pages/AdminDashboard'; 
+import AdminDashboard from './pages/AdminPages/AdminDashboard'; 
 import type { User } from './types';
 
 function App() {

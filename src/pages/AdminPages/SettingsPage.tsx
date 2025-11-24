@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { api } from '../services/api';
-import type { User, Medicine, ClinicInfo } from '../types';
+import type { User, Medicine, ClinicInfo } from '../../types';
 
 const SettingsPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'users' | 'medicines' | 'clinic'>('users');

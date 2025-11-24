@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { api } from '../services/api';
-import type { Patient } from '../types';
+import type { Patient } from '../../types';
 
 const PatientDatabase: React.FC = () => {
   const [patients, setPatients] = useState<Patient[]>([]);

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { api } from '../services/api';
-import type { Transaction } from '../types';
+import type { Transaction } from '../../types';
 
 const CashierPage: React.FC = () => {
   // State Data

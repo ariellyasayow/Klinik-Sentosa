@@ -13,12 +13,6 @@
       "name": "Rina Farmasi"
     },
     {
-      "id": "u4",
-      "username": "kasir",
-      "role": "cashier",
-      "name": "Joko Kasir"
-    },
-    {
       "id": "doc1",
       "username": "hartono",
       "role": "doctor",
@@ -81,6 +75,26 @@
       "createdAt": "2024-02-15",
       "type": "Umum",
       "insuranceNumber": ""
+    },
+    {
+      "name": "ariel",
+      "nik": "123456789873456",
+      "address": "airmadidi",
+      "birthDate": "2001-02-21",
+      "phone": "08123456",
+      "type": "Umum",
+      "id": "p-1763813552016",
+      "createdAt": "2025-11-22"
+    },
+    {
+      "name": "ariel",
+      "nik": "123456789873456",
+      "address": "unkalb",
+      "birthDate": "2001-02-21",
+      "phone": "08123456",
+      "type": "Umum",
+      "id": "p-1763813572330",
+      "createdAt": "2025-11-22"
     }
   ],
   "visits": [
@@ -91,7 +105,25 @@
       "date": "2025-11-21",
       "queueNumber": "A-001",
       "isEmergency": false,
-      "status": "waiting"
+      "status": "done"
+    },
+    {
+      "patientId": "p-1763813552016",
+      "doctorId": "u2",
+      "date": "2025-11-22",
+      "queueNumber": "A-002",
+      "isEmergency": false,
+      "status": "done",
+      "id": "v-1763813552154"
+    },
+    {
+      "patientId": "p-1763813572330",
+      "doctorId": "u2",
+      "date": "2025-11-22",
+      "queueNumber": "A-002",
+      "isEmergency": false,
+      "status": "waiting",
+      "id": "v-1763813573200"
     }
   ],
   "doctorSchedules": [
@@ -130,6 +162,18 @@
       "quota": 20,
       "filled": 0,
       "image": "https://i.pravatar.cc/150?img=3"
+    },
+    {
+      "doctorId": "doc4",
+      "name": "dr. Citra, Sp.OG",
+      "specialty": "Spesialis Kandungan",
+      "day": "Sabtu",
+      "time": "08:00 - 14:00",
+      "status": "Praktek",
+      "quota": 20,
+      "filled": 0,
+      "image": "https://i.pravatar.cc/150?img=9",
+      "id": "ds-1763813514445"
     }
   ],
   "medicines": [

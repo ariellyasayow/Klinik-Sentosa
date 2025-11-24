@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { api } from '../services/api';
+import { api } from './services/api';
 import type { User } from '../types';
 import logo from '../assets/logo.png';
 
